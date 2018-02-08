@@ -1,3 +1,90 @@
 body {
     padding-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo {
+	height: 150px;
+	width: 150px;
+	background-color: red;
+	overflow: hidden;
+	border-radius: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 35px;
+	-webkit-box-shadow: 0px 0px 106px -13px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 106px -13px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 106px -13px rgba(0,0,0,0.75);
+}
+
+.photo img {
+	height: 150px;
+	width: 150px;
+
+}
+
+.top{
+	width: 100%;
+	background: rgb(201,222,150);
+    background: -moz-linear-gradient(-45deg, rgb(201,222,150) 0%, rgb(138,182,107) 44%, rgb(57,130,53) 100%);
+    background: -webkit-linear-gradient(-45deg, rgb(201,222,150) 0%,rgb(138,182,107) 44%,rgb(57,130,53) 100%);
+    background: linear-gradient(135deg, rgb(201,222,150) 0%,rgb(138,182,107) 44%,rgb(57,130,53) 100%);
+	text-align: center;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+.card-body {
+	padding: 0px;
+}
+
+.card {
+	border-radius: 10px;
+	overflow: hidden;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 415px;
+}
+
+.base{
+	padding: 10px;
+	text-align: center;
+}
+
+.base .btn, .base .container{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.top h3, .top h4, .top h5, .top h6, .top h2, .top h1 {
+	margin-bottom: 4px;
+	font-size: 80%;
+	color: #fff;
+}
+
+.top h3 {
+	font-size: 1.4rem;
+}
+
+.btn {
+	width: 140px;
+	margin-bottom: 20px;
+}
+
+.base .container .row .col-{
+	margin-bottom: 10px;
+	width: 33.3333333%;
+}
+
+.col- h5 {
+	font-size:1em;
+}
+
+
+.col- p {
+	font-size: .7em;
 }

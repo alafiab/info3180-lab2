@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="card">
+  <div class="card-body">
+  	<div class="top">
+  		<div class="row photo">
+	  		<img class="card-img-top" src="{{url_for('static', filename='photo.jpg') }}" alt="Profile picture">
+	  	</div>
+	    <h3 class="card-title">Alafia Beckford</h3>
+	    <h6> @alafiab </h6>
+	    <h5> Portmore, St.Catherine</h5>
+	    <h5> Joined {{ date_joined }}</h5>
+  	</div>
+  	<div class="base">
+  		<p class="card-text">My name is Alafia Beckford. I attend the University of the West Indies pursing an Infomation Technology degree.</p> 
+  		<div class="container">
+			<div class="row">
+				<div class="col-">
+					<h5 class="bold">
+						7
+					</h5>
+					<p class="text-muted">POSTS</p>
+				</div>
+				<div class="col-">
+					<h5 class="strong">	
+						100
+					</h5>
+					<p class="text-muted">FOLLOWING</p>
+				</div>
+				<div class="col-">
+					<h5 class="strong">
+						250
+					</h5>
+					<p class="text-muted">FOLLOWERS</p>
+				</div>
+			</div>
+		</div>
+    	<a href="#" class="btn btn-primary">Follow</a>
+  	</div>
+    
+  </div>
+</div>
+{% endblock %}
+
+
+
+
